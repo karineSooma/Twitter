@@ -17,19 +17,24 @@ main {
     justify-content: flex-start;
 }
 
+#tweet {
+    width: 60%;
+    border-radius: 15px;
+}
+
 #tweetar {
     background-color: rgba(146, 56, 231, 0.507);
     border: 2px solid rgb(173, 109, 233);
     display: block;
     text-align: center;
     color: white;
-    position: relative;
     height: 45px;
     width: 125px;
     left: 42%;
     border-radius: 45%;
     font-size: 18px;
     font-weight: bold;
+    margin-left: 20%;
     margin-bottom: 30px;
 }  
 #tweetar:disabled:hover {
@@ -45,9 +50,6 @@ main {
     border: 2px solid rgba(146, 56, 231, 0.507);
     cursor: pointer;
 }
-/* #tweet {
-   margin: 5% 25%; 
-} */
 
 #counter {
     font-size: 120%;
@@ -55,13 +57,12 @@ main {
 }
 
 .tweetList {
-    font-size: 125%;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    padding: 15px;
-    border: 0px;
     background-color: rgba(255, 255, 255, 0.212);
-    border-radius:20px;
     text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    padding:15px;
+    border: 0px;
 }
