@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> - TwitterLab - </title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>TwitterLab</h1>
+    </header>
+    <main>
+        <textarea onkeyup="contador()" name="tweet" id="tweet" cols="30" rows="2" placeholder="O que está acontecendo?"
+            required></textarea>
+        <span id="counter">140</span>
+        <button type="submit" value="tweetar" disable="true" id="tweetar">Tweetar</button>
+        <section class="tweetList">
+            <p id="data"></p>
+        </section>
+    </main>
+    <script src="twitter.js"></script>
+
+</body>
+
+</html>
